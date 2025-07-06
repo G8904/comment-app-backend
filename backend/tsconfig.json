@@ -2,9 +2,15 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
+<<<<<<< HEAD
     "strict": true,
     "outDir": "./dist",
     "rootDir": "./src"
   },
   "include": ["src/**/*"]
 }
+=======
+    "strict": true
+  }
+}
+>>>>>>> 1e5308ff245592fdfaf9427a99a600b640021d03
