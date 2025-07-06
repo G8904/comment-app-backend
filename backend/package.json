@@ -1,14 +1,12 @@
 {
-  "name": "backend",
   "version": "1.0.0",
   "main": "main.ts",
   "scripts": {
     "start": "nest start",
     "start:dev": "nest start --watch",
-    "build": "npx nest build",
-    "start:prod": "node dist/main.js"
+    "build": "npx nest build"
   },
-  "devDependencies": {
+  "dependencies": {
     "@nestjs/cli": "^10.0.0"
   }
 }
