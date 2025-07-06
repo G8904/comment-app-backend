@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "main": "main.ts",
   "scripts": {
+<<<<<<< HEAD
     "start:dev": "nest start --watch"
   }
 }
+=======
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "npx nest build",
+    "start:prod": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.0.0"
+  }
+}
+>>>>>>> dbb7383682cb78d798b57f1bcf4d2d3bd7c7ef5d
